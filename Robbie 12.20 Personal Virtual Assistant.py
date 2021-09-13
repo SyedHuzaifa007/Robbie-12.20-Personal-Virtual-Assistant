@@ -195,7 +195,7 @@ if __name__ == "__main__":
             speak(a2)
             print(a2)
 
-        elif 'what is love' in query or 'pyaar kiya hai' in query or 'pyaar kesa hota hai' in query or 'what you know about love' in query or 'pyar kiya hai' in query or 'pyar kesa hota hai' in query:
+        elif 'what is love' in query or 'what you know about love' in query:
             responses4 = ["Love is the 7th sense that destroy a human",
                           "Love is a magic, when you are in love you feel like most luckiest person in the world"]
             e = random.choice(responses4)
