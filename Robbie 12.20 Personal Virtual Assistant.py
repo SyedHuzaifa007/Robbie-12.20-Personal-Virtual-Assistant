@@ -202,15 +202,6 @@ if __name__ == "__main__":
             speak(e)
             print(e)
 
-
-        elif 'i love you' in query or 'i love you too' in query or 'main aap se pyaar karta hun' in query or 'mujhe aap se pyaar ho gaya hai' in query or 'i like you' in query or 'i think i love you' in query or 'mujhe tum se pyaar ho gya hai' in query or 'main tum se pyaar karta hun' in query or 'main tum se pyaar karti hun' in query:
-            responses8 = ['I love you too, My dear.....',
-                          'If you love me then i bet that you are mad. Just kidding i want to say that i love you too',
-                          'I am just a robot but i love you too']
-            q = random.choice(responses8)
-            speak(q)
-            print(q)
-
         elif 'will you be my girlfriend' in query or 'will you be my boyfriend' in query or 'kya aap meri girfriend bano gi' in query or 'kya aap mere boyfriend bano ge' in query or 'kya tum meri girlfriend bano gi' in query or 'will you be my gf' in query or 'will you be my bf' in query or 'kya tum mere boyfriend bano ge' in query or 'will you marry me' in query or 'kya tum mujh se shahdi karo gi' in query:
             responses10 = ["Yes, of course i don't have any friend except my father",
                            "Yeah, i can but you have to trust me"]
