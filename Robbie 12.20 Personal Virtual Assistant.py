@@ -166,7 +166,7 @@ if __name__ == "__main__":
             speak(q)
             print(q)
 
-        elif 'good girl' in query or 'good boy' in query or 'achi bachi' in query or 'achi larki' in query or 'acha larka' in query or 'acha bacha' in query:
+        elif 'good girl' in query or 'good boy' in query:
             responses19 = ["Thanks sir, you are great", 'I like that my dear', 'Great pleasure to do your work sir']
             p = random.choice(responses19)
             speak(p)
