@@ -195,14 +195,6 @@ if __name__ == "__main__":
             speak(a2)
             print(a2)
 
-        elif 'did you have a boyfriend' in query or 'kya ap ka koi boyfriend hai' in query:
-            responses1 = ["I don't need a boyfriend, I am not a human",
-                          "I don't have any would you like to be my boyfriend",
-                          "I don't have enough time to spend with my boyfriend, i have to do jobs for people"]
-            b = random.choice(responses1)
-            speak(b)
-            print(b)
-
         elif 'what is love' in query or 'pyaar kiya hai' in query or 'pyaar kesa hota hai' in query or 'what you know about love' in query or 'pyar kiya hai' in query or 'pyar kesa hota hai' in query:
             responses4 = ["Love is the 7th sense that destroy a human",
                           "Love is a magic, when you are in love you feel like most luckiest person in the world"]
