@@ -202,14 +202,6 @@ if __name__ == "__main__":
             speak(e)
             print(e)
 
-        elif 'will you be my girlfriend' in query or 'will you be my boyfriend' in query or 'kya aap meri girfriend bano gi' in query or 'kya aap mere boyfriend bano ge' in query or 'kya tum meri girlfriend bano gi' in query or 'will you be my gf' in query or 'will you be my bf' in query or 'kya tum mere boyfriend bano ge' in query or 'will you marry me' in query or 'kya tum mujh se shahdi karo gi' in query:
-            responses10 = ["Yes, of course i don't have any friend except my father",
-                           "Yeah, i can but you have to trust me"]
-            p = random.choice(responses10)
-            speak(p)
-            print(p)
-
-
 # Web Browser Operations
 
         # Finding Location on Maps
