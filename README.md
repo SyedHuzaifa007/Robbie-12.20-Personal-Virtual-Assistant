@@ -16,8 +16,8 @@ Here is the list of features of Robbie 12.20:
 - Shutting down, Restarting, hibernating, the computer
 - Setting the computer to the sleep mode
 - Locking the device
-- Telling the outside weather 
-- Telling the current top newses from the world 
+- Telling the current weather 
+- Telling the current news update
 - Launching Applications
 - Closing Applications
 - Writing Notes
